@@ -1,0 +1,12 @@
+*.o
+*_test
+*_test_*
+*_smaple
+*_sample_*
+*.a*
+*.so*
+*.sl*
+*.mk
+*.bak
+*~
+
