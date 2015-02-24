@@ -25,7 +25,7 @@
 "./strcmp_test": {
 	"CC_bin": "strcmp_test",
 	"C_bin_SRC_c": "",
-	"CC_bin_SRC_cc":  "strcmp_test.cc rdfsa_test.cc",
+	"CC_bin_SRC_cc":  "strcmp_test.cc",
 	"MY_COMMON_FLAGS": "-I ../include",
 	"MY_CCFLAGS": "",
 	"MY_CXXFLAGS": "-I../third-party/gtest -I../third-party/gtest/include",
