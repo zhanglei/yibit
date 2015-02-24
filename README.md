@@ -8,6 +8,8 @@ yibit, a implemention of usefull algorithms in C and C++.
 Build
 =====
 
+    git clone git://github.com/guiquanz/yibit.git
+    cd yibit
     make
 
 
