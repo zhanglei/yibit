@@ -1,4 +1,4 @@
-# Copyright (c) 2013-2014 The yibit Authors. All rights reserved.
+# Copyright (c) 2013-2015 The yibit Authors. All rights reserved.
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file. See the AUTHORS file for names of contributors.
 ###############################################################################
@@ -7,10 +7,9 @@ include ../build_config.mk
 
 GTEST_HOME= ../third-party/gtest
 
-CC_bin= 
+Static_lib= libgtest.$(PLATFORM_STATIC_EXT)
 
-CC_bin_SRC_cc= \
-	strcmp.cc \
+CC_static_lib_SRC_cc= \
 	$(GTEST_HOME)/src/gtest-all.cc \
 	$(GTEST_HOME)/src/gtest_main.cc
 
@@ -23,9 +22,9 @@ YIBIT_SLIB_HEADERS=
 YIBIT_HEADERS=
 
 
-all $(CC_bin): cc_bin
+all $(Static_lib): static_lib
 
-test: $(CC_bin) ../tools/mkrunner.sh
+test: $(Static_lib) ../tools/mkrunner.sh
 	sh ../tools/mkrunner.sh ../tests
 
 check: test
@@ -37,4 +36,5 @@ sample: $(CC_bin) ../tools/mkrunner.sh
 
 
 include ./Makefile.inc
+
 

@@ -7,10 +7,13 @@ include ../build_config.mk
 
 GTEST_HOME= ../third-party/gtest
 
-CC_bin= fact_test
+CC_bin= rdfsa_test
+
+C_bin_SRC_c= \
+	../src/rdfsa.c
 
 CC_bin_SRC_cc= \
-	fact_test.cc \
+	rdfsa_test.cc \
 	$(GTEST_HOME)/src/gtest-all.cc \
 	$(GTEST_HOME)/src/gtest_main.cc
 
