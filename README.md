@@ -2,7 +2,7 @@
 Name
 ====
 
-yibit, a implemention of usefull algorithms in C and C++.
+yibit, a implemention of useful algorithms in C and C++.
 
 
 Build

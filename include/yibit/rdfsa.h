@@ -1,4 +1,8 @@
 
+#ifndef _YIBIT_RDFSA_H_INCLUDED_
+#define _YIBIT_RDFSA_H_INCLUDED_
+
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -13,4 +17,6 @@ void rdfsa_print(int *a, unsigned int n);
 }
 #endif
 
+
+#endif  /* #ifndef _YIBIT_RDFSA_H_INCLUDED_ */
 

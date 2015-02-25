@@ -8,12 +8,12 @@ TEST(strcmp, eq) {
 }
 
 
-TEST(strcmp, lessthan) {
+TEST(strcmp, less_than) {
     EXPECT_LT(0, strcmp("hello", "hell"));
 }
 
 
-TEST(strcmp, greaterthan) {
+TEST(strcmp, greater_than) {
     EXPECT_GT(0, strcmp("hell", "hello"));
 }
 

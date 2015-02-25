@@ -28,11 +28,15 @@ rdfsa(int *a, unsigned int n)
 void
 rdfsa_print(int *a, unsigned int n)
 {
+
+#ifdef DDEBUG
+
   int i;
 
   for (i = 0; i < n; i++) {
     printf("a[%d] = %d\n", i, a[i]);
   }
+#endif
 
 }
 
