@@ -34,10 +34,12 @@ Distclean
 Run a Special Group of Test Cases
 ========================
 
+    make && sh ./tools/mkrunner.sh tests <case name>
+    e.g.
     make && sh ./tools/mkrunner.sh tests ./fact_test
 
 
-Author
+Authors
 ======
 
 GuiQuan "guiquanz" Zhang (张桂权) <guiqzhang@gmail.com>

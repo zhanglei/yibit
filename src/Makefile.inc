@@ -72,7 +72,7 @@ static_lib: $(static_lib_OBJS)
 clean:
 	@-rm -f $(CC_bin_OBJS) $(C_bin_OBJS) $(CC_shared_lib_OBJS)
 	@-rm -f $(C_shared_lib_OBJS) $(static_lib_OBJS)
-	@echo '.o removed'
+	@echo "*.o removed"
 
 .cc.o:
 	@echo $(ECHO_OPT) "$(CXX) $< ... \c"

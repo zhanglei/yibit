@@ -18,5 +18,5 @@ void rdfsa_print(int *a, unsigned int n);
 #endif
 
 
-#endif  /* #ifndef _YIBIT_RDFSA_H_INCLUDED_ */
+#endif  /* _YIBIT_RDFSA_H_INCLUDED_ */
 
