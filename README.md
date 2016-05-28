@@ -13,7 +13,7 @@ Build
     make
 
 
-Test
+Test  - Run ALL Tests
 ====
 
     make check
